@@ -14,7 +14,7 @@ Requires: pypi-markdown-bin = %{version}-%{release}
 Requires: pypi-markdown-license = %{version}-%{release}
 Requires: pypi-markdown-python = %{version}-%{release}
 Requires: pypi-markdown-python3 = %{version}-%{release}
-Requires: importlib_metadata
+Requires: pypi(importlib_metadata)
 BuildRequires : PyYAML
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(setuptools)
