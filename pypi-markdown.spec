@@ -19,6 +19,8 @@ BuildRequires : PyYAML
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(wheel)
+Provides: Markdown
+Provides: Markdown-python
 
 %description
 [Python-Markdown][]
