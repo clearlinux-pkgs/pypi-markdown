@@ -4,7 +4,7 @@
 #
 Name     : pypi-markdown
 Version  : 3.3.6
-Release  : 78
+Release  : 79
 URL      : https://files.pythonhosted.org/packages/15/06/d60f21eda994b044cbd496892d4d4c5c708aa597fcaded7d421513cb219b/Markdown-3.3.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/15/06/d60f21eda994b044cbd496892d4d4c5c708aa597fcaded7d421513cb219b/Markdown-3.3.6.tar.gz
 Summary  : Python implementation of Markdown.
@@ -17,11 +17,6 @@ Requires: pypi-markdown-python3 = %{version}-%{release}
 Requires: importlib_metadata
 BuildRequires : PyYAML
 BuildRequires : buildreq-distutils3
-Provides: Markdown
-Provides: Markdown-python
-Provides: Markdown-python3
-BuildRequires : importlib_metadata
-BuildRequires : nose
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(wheel)
 
@@ -80,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641454825
+export SOURCE_DATE_EPOCH=1641522328
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
