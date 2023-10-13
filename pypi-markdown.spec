@@ -5,7 +5,7 @@
 #
 Name     : pypi-markdown
 Version  : 3.5
-Release  : 97
+Release  : 98
 URL      : https://files.pythonhosted.org/packages/62/25/1b21a708e65a933e9e2ecf03bfc7fae7169981cc688155cdb581de3e86dc/Markdown-3.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/62/25/1b21a708e65a933e9e2ecf03bfc7fae7169981cc688155cdb581de3e86dc/Markdown-3.5.tar.gz
 Summary  : Python implementation of John Gruber's Markdown.
