@@ -7,7 +7,7 @@
 #
 Name     : pypi-markdown
 Version  : 3.6
-Release  : 102
+Release  : 103
 URL      : https://files.pythonhosted.org/packages/22/02/4785861427848cc11e452cc62bb541006a1087cf04a1de83aedd5530b948/Markdown-3.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/22/02/4785861427848cc11e452cc62bb541006a1087cf04a1de83aedd5530b948/Markdown-3.6.tar.gz
 Summary  : Python implementation of John Gruber's Markdown.
